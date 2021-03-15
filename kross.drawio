@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T00:12:47.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.8" etag="idvVGHyiVUzCwwOX2V37" type="github"><diagram id="O9uHwZSNduyuMyUgwB2A">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-15T08:38:27.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="vE9SQMgrik3Xyop63PHY" version="14.4.8" type="github">
+  <diagram id="O9uHwZSNduyuMyUgwB2A" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r8zM558o1pAwnRajsFUb-1" value="subscriber" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-3" value="get_service" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="r8zM558o1pAwnRajsFUb-1" target="r8zM558o1pAwnRajsFUb-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-2" value="krosservice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-5" value="tunnel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-6" value="tunnel_api.Client" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="169" as="sourcePoint" />
+            <mxPoint x="469.5" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-7" value="tunnel_api.Result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.5" y="206" as="sourcePoint" />
+            <mxPoint x="289.5" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-8" value="StockSubscriber" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="sourcePoint" />
+            <mxPoint x="130" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-9" value="get_day_data" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="289.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-10" value="StockQuery" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="r8zM558o1pAwnRajsFUb-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="449.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-11" value="find provider who will service this request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="299" width="161" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-12" value="provider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-13" value="get_service" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="r8zM558o1pAwnRajsFUb-12" target="r8zM558o1pAwnRajsFUb-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="130" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-14" value="krosservice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="480" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-15" value="tunnel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="480" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-16" value="tunnel_api.Client" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="579" as="sourcePoint" />
+            <mxPoint x="459.5" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-17" value="tunnel_api.Result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459.5" y="616" as="sourcePoint" />
+            <mxPoint x="279.5" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-18" value="StockSubscriber" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="650" as="sourcePoint" />
+            <mxPoint x="120" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-19" value="get_day_data" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="700" as="sourcePoint" />
+            <mxPoint x="279.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-20" value="StockQuery" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="r8zM558o1pAwnRajsFUb-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="720" as="sourcePoint" />
+            <mxPoint x="439.5" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8zM558o1pAwnRajsFUb-21" value="find provider who will service this request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="709" width="161" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
