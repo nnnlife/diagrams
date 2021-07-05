@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T05:40:26.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jPiDjVqFuGSE7DIpdWc5" version="14.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-05T05:57:06.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="39O2msgN4rkto6ValdKK" version="14.8.3" type="github" pages="2">
   <diagram id="XJpDfpVqEs_X0gmeq90e" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,84 +186,90 @@
         <mxCell id="sB54-BS0w_xD0eevMKqK-0" />
         <mxCell id="sB54-BS0w_xD0eevMKqK-1" parent="sB54-BS0w_xD0eevMKqK-0" />
         <mxCell id="sB54-BS0w_xD0eevMKqK-2" value="1. Run Client&lt;br&gt;2. Search Symbol&lt;br&gt;3. Add Symbol&lt;br&gt;4. Click Symbol&lt;br&gt;5. Watch Chart(Candle)&lt;br&gt;* Realtime&lt;br&gt;6. Change interval&lt;br&gt;* Set Limit Datetime&lt;br&gt;6. Add Indicator(MAVG)&lt;br&gt;7. Add Indicator(EHLER)&lt;br&gt;8. Save Current Environment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="100" y="80" width="320" height="170" as="geometry" />
+          <mxGeometry x="960" width="190" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-2" value="search" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-0" target="UoUW56dW-22rG_aw_v2Q-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-0" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="190" y="330" width="110" height="50" as="geometry" />
+          <mxGeometry x="160" y="100" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-1" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="400" y="330" width="110" height="50" as="geometry" />
+          <mxGeometry x="370" y="100" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-3" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="190" y="420" width="110" height="50" as="geometry" />
+          <mxGeometry x="160" y="190" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-5" value="add symbol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-4" target="UoUW56dW-22rG_aw_v2Q-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-4" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="400" y="420" width="110" height="50" as="geometry" />
+          <mxGeometry x="370" y="190" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-9" value="get(interval)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-6" target="UoUW56dW-22rG_aw_v2Q-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-6" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="190" y="510" width="110" height="50" as="geometry" />
+          <mxGeometry x="160" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-7" value="click symbol" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" target="UoUW56dW-22rG_aw_v2Q-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="535" as="sourcePoint" />
-            <mxPoint x="140" y="510" as="targetPoint" />
+            <mxPoint x="60" y="305" as="sourcePoint" />
+            <mxPoint x="110" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="535" as="targetPoint" />
+            <mxPoint x="550" y="305" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-8" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="400" y="510" width="110" height="50" as="geometry" />
+          <mxGeometry x="370" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-10" value="if limit is not set, start watch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="280" y="490" width="140" height="20" as="geometry" />
+          <mxGeometry x="250" y="260" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-11" value="If limit is set while running,&lt;br&gt;reset all data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="230" y="580" width="250" height="20" as="geometry" />
+          <mxGeometry x="200" y="350" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-12" value="&lt;b&gt;Provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="585" y="510" width="110" height="50" as="geometry" />
+          <mxGeometry x="555" y="280" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-14" value="Client shall know how to get realtime / fetch data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="30" y="402" width="150" height="86" as="geometry" />
+          <mxGeometry y="172" width="150" height="86" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-16" value="kline process&lt;br&gt;1. client call get (data has type &#39;CPU&quot;, &quot;CP&quot;, &quot;CM&quot;, &#39;UM&#39;, &quot;UP&quot;, &quot;UPO&quot;, &quot;UPOU&quot;&lt;br&gt;2. client start watch candle&lt;br&gt;3. send candle to signal&lt;br&gt;4. send update data to signal to get realtime signal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="620" y="305" width="310" height="125" as="geometry" />
+          <mxGeometry x="590" y="75" width="310" height="125" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-20" value="create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-17" target="UoUW56dW-22rG_aw_v2Q-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-17" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="190" y="630" width="110" height="50" as="geometry" />
+          <mxGeometry x="160" y="400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-18" target="UoUW56dW-22rG_aw_v2Q-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-18" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="400" y="630" width="110" height="50" as="geometry" />
+          <mxGeometry x="370" y="400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-19" value="&lt;b&gt;MAVG&lt;br&gt;Provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="600" y="585" width="215" height="140" as="geometry" />
+          <mxGeometry x="570" y="355" width="215" height="140" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-23" value="&lt;b&gt;Indicator1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="615" y="630" width="80" height="40" as="geometry" />
+          <mxGeometry x="585" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-24" value="&lt;b&gt;Indicator2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="710" y="630" width="80" height="40" as="geometry" />
+          <mxGeometry x="680" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-25" value="Identify by ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="830" y="580" width="150" height="86" as="geometry" />
+          <mxGeometry x="800" y="350" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-26" value="until 기입하는 경우,&lt;br&gt;interval 에 맞게 시간 정정" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="330" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-28" value="TR은 어떻게?&lt;br&gt;Client 에 비종속적으로 하는게 좋을 듯 한데&lt;br&gt;Paper TR 도 구현 필요" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="770" y="530" width="355" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
