@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T07:16:07.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="wAqa-LvAzBtiu_9oZsAj" version="14.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:49:06.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="yeoGyM9WWqpSsGH_LnA_" version="14.8.3" type="github" pages="4">
   <diagram id="XJpDfpVqEs_X0gmeq90e" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,7 +263,7 @@
           <mxGeometry x="680" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-25" value="Identify by ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
-          <mxGeometry x="800" y="350" width="150" height="86" as="geometry" />
+          <mxGeometry x="800" y="350" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-26" value="until 기입하는 경우,&lt;br&gt;interval 에 맞게 시간 정정" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
           <mxGeometry x="330" width="150" height="86" as="geometry" />
@@ -321,6 +321,9 @@
         </mxCell>
         <mxCell id="W-qKgfRW9r_cR09-LsRR-8" value="Download simulation data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
           <mxGeometry x="1019" y="618" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uIzz3oSEyPV2xAoKO7M7-0" value="get ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="245" y="450" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
