@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T05:36:39.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Fes49UUft2OCsp9OpiYf" version="14.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-05T05:40:26.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jPiDjVqFuGSE7DIpdWc5" version="14.8.3" type="github" pages="2">
   <diagram id="XJpDfpVqEs_X0gmeq90e" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -240,6 +240,30 @@
         </mxCell>
         <mxCell id="UoUW56dW-22rG_aw_v2Q-16" value="kline process&lt;br&gt;1. client call get (data has type &#39;CPU&quot;, &quot;CP&quot;, &quot;CM&quot;, &#39;UM&#39;, &quot;UP&quot;, &quot;UPO&quot;, &quot;UPOU&quot;&lt;br&gt;2. client start watch candle&lt;br&gt;3. send candle to signal&lt;br&gt;4. send update data to signal to get realtime signal" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
           <mxGeometry x="620" y="305" width="310" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-20" value="create" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-17" target="UoUW56dW-22rG_aw_v2Q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-17" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="190" y="630" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="UoUW56dW-22rG_aw_v2Q-18" target="UoUW56dW-22rG_aw_v2Q-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-18" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="400" y="630" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-19" value="&lt;b&gt;MAVG&lt;br&gt;Provider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="600" y="585" width="215" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-23" value="&lt;b&gt;Indicator1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="615" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-24" value="&lt;b&gt;Indicator2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="710" y="630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoUW56dW-22rG_aw_v2Q-25" value="Identify by ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="830" y="580" width="150" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
