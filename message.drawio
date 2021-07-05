@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T06:42:21.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ZQNAWxezIcLAEstQmt4r" version="14.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:16:07.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="wAqa-LvAzBtiu_9oZsAj" version="14.8.3" type="github" pages="4">
   <diagram id="XJpDfpVqEs_X0gmeq90e" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,6 +295,33 @@
         <mxCell id="UoUW56dW-22rG_aw_v2Q-35" value="&lt;b&gt;TR Plugin&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
           <mxGeometry x="320" y="680" width="210" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="W-qKgfRW9r_cR09-LsRR-0" target="W-qKgfRW9r_cR09-LsRR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="W-qKgfRW9r_cR09-LsRR-0" target="W-qKgfRW9r_cR09-LsRR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-0" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="930" y="520" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="sB54-BS0w_xD0eevMKqK-1" source="W-qKgfRW9r_cR09-LsRR-1" target="W-qKgfRW9r_cR09-LsRR-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-1" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="930" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-4" value="download Provider / plugins" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="820" y="570" width="150" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-5" value="Connect remote router&amp;nbsp;&lt;br&gt;to use remote functions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="1010" y="580" width="150" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-6" value="&lt;b&gt;router manifest server&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="990" y="414" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W-qKgfRW9r_cR09-LsRR-8" value="Download simulation data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="sB54-BS0w_xD0eevMKqK-1">
+          <mxGeometry x="1019" y="618" width="150" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -356,6 +383,20 @@
         </mxCell>
         <mxCell id="XeL8xISVFl5Ryd4g9eu9-21" value="tabs&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. news by symbol&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. foreigner / institution trend&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. financial statement&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XeL8xISVFl5Ryd4g9eu9-1">
           <mxGeometry x="540" y="190" width="190" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="h7LAGhO5DPEbcRxV-CbH" name="Page-4">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="hViUmRkHO7qMOMjgmf3x-0" />
+        <mxCell id="hViUmRkHO7qMOMjgmf3x-1" parent="hViUmRkHO7qMOMjgmf3x-0" />
+        <mxCell id="hViUmRkHO7qMOMjgmf3x-2" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;{&#39;jsonrpc&#39;: &#39;2.0&#39;,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;method&#39;: &#39;regist_obj&#39;,&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;params&#39;: {&#39;name&#39;: MockProvider,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;methods&#39;: [&#39;get_kline&#39;, &#39;watch_klines&#39;, &#39;search&#39;],&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;obj_type&#39;: &#39;type:broker:&#39;},&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;id&#39;: uuid}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="210" y="500" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hViUmRkHO7qMOMjgmf3x-3" value="obj capability&lt;br&gt;&lt;br&gt;type:exchange:func" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="150" y="90" width="220" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
