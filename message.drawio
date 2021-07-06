@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T08:16:00.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="GUvhO6-q-tqsdLsSDfV7" version="14.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-06T08:26:16.668Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="RnhRfQcuUx2qUpnci8t1" version="14.8.4" type="github" pages="4">
   <diagram id="XJpDfpVqEs_X0gmeq90e" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1378" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,25 +156,25 @@
         <mxCell id="LI_20KDizkYBDGB6hoM7-51" value="&lt;font face=&quot;helvetica&quot;&gt;필요한 Set 을 만들어,&lt;br&gt;search 시에 return 하는 것으로..&lt;br&gt;&lt;br&gt;&quot;price_query&quot;: &quot;MockProvider.get_kline&quot;&lt;br&gt;&quot;price_realtime&quot;: &quot;MockProvider.watch_..&quot;&lt;br&gt;&quot;bidask_realtime&quot;&lt;br&gt;&quot;financial_statment&quot;:&lt;br&gt;&quot;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="300" y="1100" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aw0N2iSUgDGMIQhZ0OBn-1" target="Aw0N2iSUgDGMIQhZ0OBn-2">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Aw0N2iSUgDGMIQhZ0OBn-1" target="Aw0N2iSUgDGMIQhZ0OBn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-1" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-1" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="1290" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-2" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-2" value="&lt;b&gt;router&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="370" y="1290" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-3" value="&lt;b&gt;signal&lt;br&gt;provider&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-3" value="&lt;b&gt;signal&lt;br&gt;provider&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="610" y="1290" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-5" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;{&#39;jsonrpc&#39;: &#39;2.0&#39;,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;method&#39;: &#39;MockProvider.search&#39;,&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;params&#39;: {&#39;category&#39;: &#39;signal&#39;, &#39;name&#39;: &#39;mavg&#39;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;},&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;id&#39;: uuid}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-5" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;{&#39;jsonrpc&#39;: &#39;2.0&#39;,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;method&#39;: &#39;MockProvider.search&#39;,&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;params&#39;: {&#39;category&#39;: &#39;signal&#39;, &#39;name&#39;: &#39;mavg&#39;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;},&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;id&#39;: uuid}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="170" y="1220" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-6" value="&lt;b style=&quot;font-size: 10px&quot;&gt;MAVG&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-6" value="&lt;b style=&quot;font-size: 10px&quot;&gt;MAVG&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="440" y="1290" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-7" value="&lt;font face=&quot;helvetica&quot;&gt;1) history data&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;2) real data&lt;br&gt;2-1) Client 에서 Subscribe 한 데이터 직접 signal provider 에 전달&lt;br&gt;&amp;nbsp;- signal 을 5개 쓴다면, 모두 req/res 로 realtime 전달해야 되는 문제&lt;br&gt;&lt;br&gt;2-2) signal provider 에서 직접?&lt;br&gt;&amp;nbsp;- 직접하는 경우 simulation control 이 가능하지 않음&lt;br&gt;&lt;br&gt;결론: signal provider 는 동시 2개 이상 사용할 수 없기 때문에, 다른 방안 필요&lt;br&gt;&lt;br&gt;provider 자체에서 vendor:symbol 로 개별 관리는 가능&lt;br&gt;interval 별로는?&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="Aw0N2iSUgDGMIQhZ0OBn-7" value="&lt;font face=&quot;helvetica&quot;&gt;1) history data&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;2) real data&lt;br&gt;2-1) Client 에서 Subscribe 한 데이터 직접 signal provider 에 전달&lt;br&gt;&amp;nbsp;- signal 을 5개 쓴다면, 모두 req/res 로 realtime 전달해야 되는 문제&lt;br&gt;&lt;br&gt;2-2) signal provider 에서 직접?&lt;br&gt;&amp;nbsp;- 직접하는 경우 simulation control 이 가능하지 않음&lt;br&gt;&lt;br&gt;결론: signal provider 는 동시 2개 이상 사용할 수 없기 때문에, 다른 방안 필요&lt;br&gt;&lt;br&gt;provider 자체에서 vendor:symbol 로 개별 관리는 가능&lt;br&gt;interval 별로는?&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="450" y="1360" width="210" height="270" as="geometry" />
         </mxCell>
       </root>
@@ -391,15 +391,165 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h7LAGhO5DPEbcRxV-CbH" name="Page-4">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2725" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="hViUmRkHO7qMOMjgmf3x-0" />
         <mxCell id="hViUmRkHO7qMOMjgmf3x-1" parent="hViUmRkHO7qMOMjgmf3x-0" />
-        <mxCell id="hViUmRkHO7qMOMjgmf3x-2" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;{&#39;jsonrpc&#39;: &#39;2.0&#39;,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;method&#39;: &#39;regist_obj&#39;,&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;params&#39;: {&#39;name&#39;: MockProvider,&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;methods&#39;: [&#39;get_kline&#39;, &#39;watch_klines&#39;, &#39;search&#39;],&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;obj_type&#39;: &#39;type:broker:&#39;},&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;&amp;nbsp;&#39;id&#39;: uuid}&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
-          <mxGeometry x="210" y="500" width="320" height="100" as="geometry" />
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-36" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="60" y="720" width="840" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hViUmRkHO7qMOMjgmf3x-3" value="obj capability&lt;br&gt;&lt;br&gt;type:exchange:func" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
-          <mxGeometry x="150" y="90" width="220" height="70" as="geometry" />
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-0" value="Search options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="100" y="40" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-4" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="80" y="114" width="100" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-5" value="Router" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="310" y="114" width="100" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="a6yt6d1-OOGEVtC6zJUz-5">
+          <mxGeometry x="45" y="76" width="10" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;align=left;" vertex="1" parent="a6yt6d1-OOGEVtC6zJUz-5">
+          <mxGeometry x="45" y="366" width="10" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-6" value="search(type:symbol, keyword: BTCUSDT)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="190" as="sourcePoint" />
+            <mxPoint x="210" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-7" value="Provider&lt;br&gt;Obejct1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="570" y="114" width="100" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-12" value="object.method" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="220" as="sourcePoint" />
+            <mxPoint x="270" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-13" value="search(type:symbol, keyword: BTCUSDT)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="270" as="sourcePoint" />
+            <mxPoint x="359.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-14" value="Provider&lt;br&gt;Object2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="710" y="114" width="100" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-15" value="search(type:symbol, keyword: BTCUSDT)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="619.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-16" value="symbol information" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-17" value="symbol information" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" source="a6yt6d1-OOGEVtC6zJUz-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620.5" y="350" as="sourcePoint" />
+            <mxPoint x="130" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-18" value="[symbol:&#39;BTCUSDT&#39;,&lt;br&gt;price_data: &#39;Object1.price_data&#39;,&amp;nbsp;&lt;br&gt;get_quotes: &#39;Object2.get_quotes&#39;, ....]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="300" y="354" width="315" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-19" value="User click symbol" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="440" as="sourcePoint" />
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-20" value="Object2.get_quotes" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="450" as="sourcePoint" />
+            <mxPoint x="140" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-21" value="Object2.get_quotes" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="589.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-22" value="quotes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759.5" y="490" as="sourcePoint" />
+            <mxPoint x="130" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-9" value="find object which support symbol search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="320" y="220" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-24" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="80" y="660" width="100" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-25" value="Router" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="310" y="660" width="120" height="406" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-28" value="Provider&lt;br&gt;Obejct1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="550" y="660" width="100" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-29" value="Provider&lt;br&gt;Object2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="800" y="660" width="100" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-30" value="search(type:symbol, keyword: BTCUSDT)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="750" as="sourcePoint" />
+            <mxPoint x="359.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-31" value="notification (msg_id)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850.5" y="827" as="sourcePoint" />
+            <mxPoint x="129.5" y="827" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-32" value="search(type:symbol, keyword: BTCUSDT)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="770" as="sourcePoint" />
+            <mxPoint x="589.5" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-33" value="search(type:symbol, keyword: BTCUSDT)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1" target="a6yt6d1-OOGEVtC6zJUz-29">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="800" as="sourcePoint" />
+            <mxPoint x="599.5" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-34" value="notification (msd_id)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="855" as="sourcePoint" />
+            <mxPoint x="130" y="854.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-35" value="Session 타입인데, 별개의 Msg Type 지원 필요" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="290" y="870" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-38" value="User click symbol" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="980" as="sourcePoint" />
+            <mxPoint x="130" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-39" value="crypto:binance::BTCUSDT 로만 저장하는 경우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry x="40" y="930" width="390" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-40" value="{method: &#39;get_quotes&quot;,&lt;br&gt;params: crypto:binance:" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="1000" as="sourcePoint" />
+            <mxPoint x="359.5" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6yt6d1-OOGEVtC6zJUz-41" value="expected notify : 2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="hViUmRkHO7qMOMjgmf3x-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364.5" y="813.0000000000002" as="sourcePoint" />
+            <mxPoint x="134.5" y="813.0000000000002" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
